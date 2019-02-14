@@ -30,5 +30,31 @@ public class Dealer {
 
     }
 
+    public String checkResults(){
+        int bestValue = 0;
+        ArrayList<Player> winners = new ArrayList<>();
+
+        for (Player player : this.players){
+            if(player.getCard().getRank().getValueFromEnum() > bestValue){
+                bestValue = player.getCard().getRank().getValueFromEnum();
+            }
+        }
+
+        for (Player player : this.players){
+
+            if(player.getCard().getRank().getValueFromEnum() == bestValue) {
+                winners.add(player);
+            }
+        }
+
+        if (winners.size() > 1){
+            return "Game is a draw";
+        } else {
+            return String.format("The winner is %s", winners.get(0).getName());
+        }
+
+
+    }
+
 
 }

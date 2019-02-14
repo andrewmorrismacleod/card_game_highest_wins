@@ -16,8 +16,8 @@ public class DealerTest {
     @Before
     public void before(){
 
-        player1 = new Player();
-        player2 = new Player();
+        player1 = new Player("Steve");
+        player2 = new Player("Barry");
         players = new ArrayList<>();
         players.add(player1);
         players.add(player2);
@@ -45,6 +45,18 @@ public class DealerTest {
         dealer.populateAndShuffleDeck();
         dealer.dealCards();
         assertEquals(50, dealer.getDeck().getCards().size());
+    }
+
+    @Test
+    public void canDetermineWinner(){
+        dealer.populateAndShuffleDeck();
+        dealer.dealCards();
+        System.out.println(player1.getCard().getRank());
+        System.out.println(player1.getCard().getSuit());
+        System.out.println(player2.getCard().getRank());
+        System.out.println(player2.getCard().getSuit());
+        String winner = dealer.checkResults();
+        System.out.println(winner);
     }
 
 

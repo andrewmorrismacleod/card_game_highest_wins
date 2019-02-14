@@ -1,10 +1,11 @@
 public class Player {
 
     private Card card;
+    private String name;
 
-
-    public Player(){
+    public Player(String name){
         this.card = null;
+        this.name = name;
     }
 
     public void receiveCard(Card card){
@@ -13,6 +14,10 @@ public class Player {
 
     public Card getCard(){
         return this.card;
+    }
+
+    public String getName(){
+        return this.name;
     }
 
 }
