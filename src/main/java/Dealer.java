@@ -23,5 +23,12 @@ public class Dealer {
         return this.deck;
     }
 
+    public void dealCards(){
+        for (Player player : this.players){
+            player.receiveCard(this.deck.dealCard());
+        }
+
+    }
+
 
 }

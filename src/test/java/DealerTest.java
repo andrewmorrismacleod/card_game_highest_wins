@@ -36,7 +36,17 @@ public class DealerTest {
     public void hasFullDeck(){
         dealer.populateAndShuffleDeck();
         assertEquals(52, dealer.getDeck().getCards().size());
+        System.out.println(dealer.getDeck().getCards().get(0).getRank());
+        System.out.println(dealer.getDeck().getCards().get(0).getSuit());
     }
+
+    @Test
+    public void dealerCanDeal(){
+        dealer.populateAndShuffleDeck();
+        dealer.dealCards();
+        assertEquals(50, dealer.getDeck().getCards().size());
+    }
+
 
 
 }
