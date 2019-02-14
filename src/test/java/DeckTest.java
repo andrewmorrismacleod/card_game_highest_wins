@@ -35,4 +35,14 @@ public class DeckTest {
         System.out.println(deck.getCards().get(13).getRank());
         System.out.println(deck.getCards().get(13).getSuit());
     }
+
+    @Test
+    public void canDealCard(){
+        deck.populate();
+        deck.shuffle();
+        Card card = deck.dealCard();
+        assertEquals(51, deck.getDeckSize());
+        System.out.println(card.getRank());
+        System.out.println(card.getSuit());
+    }
 }

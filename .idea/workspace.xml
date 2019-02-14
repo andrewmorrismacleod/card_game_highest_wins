@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c1108ea-a820-42c9-92c1-d4f4cdfe79c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,12 +38,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1740" />
+          <entry key="java" value="1856" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1740" />
+          <entry key="JAVA" value="1856" />
         </counts>
       </usages-collector>
     </session>
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="321">
+              <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -96,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            <state relative-caret-position="105">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -417,8 +416,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Card.java" />
         <option value="$PROJECT_DIR$/src/main/java/RankType.java" />
         <option value="$PROJECT_DIR$/src/test/java/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Deck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DeckTest.java" />
       </list>
     </option>
   </component>
@@ -482,7 +481,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550154572099" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550154970608" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -496,22 +495,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest.canShuffleCards">
-    <configuration name="CardTest.canGetSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CardGame_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CardTest" />
-      <option name="METHOD_NAME" value="canGetSuit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DeckTest.canDealCard">
     <configuration name="CardTest.canGetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGame_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CardTest" />
       <option name="METHOD_NAME" value="canGetValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeckTest.canDealCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGame_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeckTest" />
+      <option name="METHOD_NAME" value="canDealCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -548,19 +547,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CardTest.canGetSuit" />
       <item itemvalue="JUnit.CardTest.canGetValue" />
       <item itemvalue="JUnit.DeckTest.hasNoCards" />
       <item itemvalue="JUnit.DeckTest.has52Cards" />
       <item itemvalue="JUnit.DeckTest.canShuffleCards" />
+      <item itemvalue="JUnit.DeckTest.canDealCard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeckTest.canDealCard" />
         <item itemvalue="JUnit.DeckTest.canShuffleCards" />
         <item itemvalue="JUnit.DeckTest.has52Cards" />
         <item itemvalue="JUnit.DeckTest.hasNoCards" />
         <item itemvalue="JUnit.CardTest.canGetValue" />
-        <item itemvalue="JUnit.CardTest.canGetSuit" />
       </list>
     </recent_temporary>
   </component>
@@ -596,6 +595,15 @@
     <history-entry file="DeckTest_has52Cards - 2019.02.14 at 14h 23m 09s.xml">
       <configuration name="DeckTest.has52Cards" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DeckTest_canShuffleCards - 2019.02.14 at 14h 29m 19s.xml">
+      <configuration name="DeckTest.canShuffleCards" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_canShuffleCards - 2019.02.14 at 14h 29m 27s.xml">
+      <configuration name="DeckTest.canShuffleCards" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_canShuffleCards - 2019.02.14 at 14h 29m 33s.xml">
+      <configuration name="DeckTest.canShuffleCards" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="25" width="1440" height="801" extended-state="0" />
@@ -612,10 +620,10 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32863188" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Messages" weight="0.32863188" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32863188" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32863188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -672,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RankType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -693,17 +694,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="207">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
         </state>
       </provider>
     </entry>

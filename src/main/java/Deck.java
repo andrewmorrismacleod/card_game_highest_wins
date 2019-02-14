@@ -32,5 +32,9 @@ public class Deck {
         Collections.shuffle(this.cards);
     }
 
+    public Card dealCard(){
+        return this.cards.remove(0);
+    }
+
 
 }
