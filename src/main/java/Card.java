@@ -12,5 +12,13 @@ public class Card {
         return this.rank;
     }
 
+    public SuitType getSuit(){
+        return this.suit;
+    }
+
+    public int getValue(){
+        return this.rank.getValueFromEnum();
+    }
+
 
 }

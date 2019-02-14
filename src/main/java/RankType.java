@@ -20,4 +20,8 @@ public enum RankType {
         this.value = value;
     }
 
+    public int getValueFromEnum(){
+        return this.value;
+    }
+
 }

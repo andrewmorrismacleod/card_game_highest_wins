@@ -16,4 +16,18 @@ public class CardTest {
     public void canGetRank(){
         assertEquals(RankType.ACE, card.getRank());
     }
+
+    @Test
+    public void canGetSuit(){
+        assertEquals(SuitType.SPADES, card.getSuit());
+    }
+
+    @Test
+    public void canGetValue(){
+        assertEquals(1,card.getValue());
+    }
+
+
+
+
 }
